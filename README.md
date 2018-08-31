@@ -24,15 +24,15 @@ To install the plugin, follow these instructions.
 
 ## Using SVG Icons
 
-'icon-name'|feather or svgIcon('zondicons', 'icon-name')
+Filter style: `'icon-name'|feather` (or `|zondicons`) as well as function style: `svgIcon('zondicons', 'icon-name')` will work.
 
 For example `'cpu'|feather` would result in the following:
 
-![Feather CPU](./src/resources/icons/feather/cpu.svg)
+![Feather CPU](./src/resources/icons/feather/cpu.svg){: height="128px" width="128px" }
 
 While `svgIcon('zondicons', 'announcement')` would result in:
 
-![Zondicons announcement](./src/resources/icons/zondicons/announcement.svg)
+![Zondicons announcement](./src/resources/icons/zondicons/announcement.svg){: height="128px" width="128px" }
 
 ## SVG Icons Roadmap
 
