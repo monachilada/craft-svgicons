@@ -11,8 +11,8 @@
         "svg icons"
     ],
     "support": {
-        "docs": "https://github.com/monachilada/svg-icons/blob/master/README.md",
-        "issues": "https://github.com/monachilada/svg-icons/issues"
+        "docs": "https://github.com/monachilada/craft-svgicons/blob/master/README.md",
+        "issues": "https://github.com/monachilada/craft-svgicons/issues"
     },
     "repositories": {
         "feather": {
@@ -59,10 +59,10 @@
     },
     "extra": {
         "name": "SVG Icons",
-        "handle": "svg-icons",
+        "handle": "craft-svgicons",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/monachilada/svg-icons/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/monachilada/craft-svgicons/master/CHANGELOG.md",
         "class": "monachilada\\svgicons\\SvgIcons"
     }
 }
