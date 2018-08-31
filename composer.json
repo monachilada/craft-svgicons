@@ -15,7 +15,7 @@
         "issues": "https://github.com/monachilada/craft-svgicons/issues"
     },
     "repositories": {
-        "feather": {
+        "feathericons/feather": {
 	        "type": "package",
 	        "package": {
 	          "name": "feathericons/feather",
@@ -27,7 +27,7 @@
 	          }
 	        }
 	      },
-	      "zondicons": {
+	      "dukestreetstudio/zondicons": {
 	        "type": "package",
 	        "package": {
 	          "name": "dukestreetstudio/zondicons",
