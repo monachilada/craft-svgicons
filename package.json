@@ -4,7 +4,7 @@
   "description": "Craft CMS Twig extension to include SVGs from the Feather and Zondicons SVG icon libraries directly in your templates.",
   "scripts": {
     "build": "gulp",
-    "stage": "git add resources/*"
+    "stage": "git add src/resources/*"
   },
   "pre-commit": [
     "build",
