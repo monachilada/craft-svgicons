@@ -20,10 +20,9 @@
 	        "package": {
 	          "name": "feathericons/feather",
 	          "version": "master",
-	          "source": {
-	            "url": "https://github.com/feathericons/feather",
-	            "type": "git",
-	            "reference": "master"
+	          "dist": {
+	            "url": "https://github.com/feathericons/feather/archive/master.zip",
+	            "type": "zip"
 	          }
 	        }
 	      },
@@ -32,10 +31,9 @@
 	        "package": {
 	          "name": "dukestreetstudio/zondicons",
 	          "version": "master",
-	          "source": {
-	            "url": "https://github.com/dukestreetstudio/zondicons",
-	            "type": "git",
-	            "reference": "master"
+	          "dist": {
+	            "url": "https://github.com/dukestreetstudio/zondicons/archive/master.zip",
+	            "type": "zip"
 	          }
 	        }
 	      }
