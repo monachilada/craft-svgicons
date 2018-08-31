@@ -2,7 +2,7 @@
 
 Craft CMS Twig extension to include SVGs from the [Feather](https://feathericons.com/) and [Zondicons](https://www.zondicons.com/) SVG icon libraries directly in your templates.
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](./resources/img/plugin-logo.png)
 
 ## Requirements
 
@@ -28,11 +28,11 @@ To install the plugin, follow these instructions.
 
 For example `'cpu'|feather` would result in the following:
 
-![Feather CPU](src/resources/icons/feather/cpu.svg =128x)
+![Feather CPU](./src/resources/icons/feather/cpu.svg)
 
 While `svgIcon('zondicons', 'announcement')` would result in:
 
-![Zondicons announcement](src/resources/icons/zondicons/announcement.svg =128x)
+![Zondicons announcement](./src/resources/icons/zondicons/announcement.svg)
 
 ## SVG Icons Roadmap
 
