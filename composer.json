@@ -1,0 +1,68 @@
+{
+    "name": "monachilada/svg-icons",
+    "description": "Twig extension to include SVGs from the Feather and Zondicons svg icon libraries directly in your templates.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "svg icons"
+    ],
+    "support": {
+        "docs": "https://github.com/monachilada/svg-icons/blob/master/README.md",
+        "issues": "https://github.com/monachilada/svg-icons/issues"
+    },
+    "repositories": {
+        "feather": {
+	        "type": "package",
+	        "package": {
+	          "name": "feathericons/feather",
+	          "version": "1.0.0",
+	          "source": {
+	            "url": "https://github.com/feathericons/feather",
+	            "type": "git",
+	            "reference": "master"
+	          }
+	        }
+	      },
+	      "zondicons": {
+	        "type": "package",
+	        "package": {
+	          "name": "dukestreetstudio/zondicons",
+	          "version": "1.0.0",
+	          "source": {
+	            "url": "https://github.com/dukestreetstudio/zondicons",
+	            "type": "git",
+	            "reference": "master"
+	          }
+	        }
+	      }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Pierce",
+            "homepage": "https://michaelpierce.trade/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0",
+        "feathericons/feather": "*",
+        "dukestreetstudio/zondicons": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "monachilada\\svgicons\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "SVG Icons",
+        "handle": "svg-icons",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/monachilada/svg-icons/master/CHANGELOG.md",
+        "class": "monachilada\\svgicons\\SvgIcons"
+    }
+}
