@@ -1,6 +1,6 @@
 {
     "name": "monachilada/craft-svgicons",
-    "description": "Twig extension to include SVGs from the Feather and Zondicons svg icon libraries directly in your templates.",
+    "description": "Craft CMS Twig extension to include SVGs from the Feather and Zondicons SVG icon libraries directly in your templates.",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
