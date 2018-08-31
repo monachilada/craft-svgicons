@@ -19,7 +19,7 @@
 	        "type": "package",
 	        "package": {
 	          "name": "feathericons/feather",
-	          "version": "dev-master",
+	          "version": "master",
 	          "source": {
 	            "url": "https://github.com/feathericons/feather",
 	            "type": "git",
@@ -31,7 +31,7 @@
 	        "type": "package",
 	        "package": {
 	          "name": "dukestreetstudio/zondicons",
-	          "version": "dev-master",
+	          "version": "master",
 	          "source": {
 	            "url": "https://github.com/dukestreetstudio/zondicons",
 	            "type": "git",
