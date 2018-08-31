@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84d915e75cd3169454d9766ce9694c2b",
+    "content-hash": "deda01d1170c62e2c2abe3fc0d5bd646",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -682,11 +682,6 @@
             "time": "2014-09-09T13:34:57+00:00"
         },
         {
-            "name": "dukestreetstudio/zondicons",
-            "version": "master",
-            "type": "library"
-        },
-        {
             "name": "egulias/email-validator",
             "version": "2.1.5",
             "source": {
@@ -864,11 +859,6 @@
                 "html"
             ],
             "time": "2018-02-23T01:58:20+00:00"
-        },
-        {
-            "name": "feathericons/feather",
-            "version": "master",
-            "type": "library"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2708,10 +2698,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "feathericons/feather": 20,
-        "dukestreetstudio/zondicons": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
