@@ -110,7 +110,7 @@ class SvgIcons extends Plugin
  */
         Craft::info(
             Craft::t(
-                'svg-icons',
+                'craft-svgicons',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),

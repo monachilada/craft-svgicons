@@ -22,22 +22,22 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for SVG Icons.
 
-## SVG Icons Overview
-
--Insert text here-
-
-## Configuring SVG Icons
-
--Insert text here-
-
 ## Using SVG Icons
 
--Insert text here-
+'icon-name'|feather or svgIcon('zondicons', 'icon-name')
+
+For example `'cpu'|feather` would result in the following:
+
+![Feather CPU](src/resources/icons/feather/cpu.svg =128x)
+
+While `svgIcon('zondicons', 'announcement')` would result in:
+
+![Zondicons announcement](src/resources/icons/zondicons/announcement.svg =128x)
 
 ## SVG Icons Roadmap
 
 Some things to do, and ideas for potential features:
 
-* Release it
+* Add more icon sets as requested
 
 Brought to you by [Mike Pierce](https://michaelpierce.trade/)

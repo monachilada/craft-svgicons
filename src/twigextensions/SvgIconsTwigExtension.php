@@ -10,8 +10,6 @@
 
 namespace monachilada\svgicons\twigextensions;
 
-use dukestreetstudio\zondicons;
-use feathericons\feather;
 use monachilada\svgicons\SvgIcons;
 
 use Craft;
@@ -45,28 +43,29 @@ class SvgIconsTwigExtension extends \Twig_Extension
     /**
      * Returns an array of Twig filters, used in Twig templates via:
      *
-     *      {{ 'something' | someFilter }}
+     *      {{ 'key' | feather }} OR {{ 'key' | zondicons }}
      *
      * @return array
      */
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('someFilter', [$this, 'someInternalFunction']),
+            new \Twig_SimpleFilter('feather', [$this, 'getFeather']),
+            new \Twig_SimpleFilter('zondicons', [$this, 'getZondicon']),
         ];
     }
 
     /**
      * Returns an array of Twig functions, used in Twig templates via:
      *
-     *      {% set this = someFunction('something') %}
+     *      {% set this = svgIcon('library', 'key') %}
      *
     * @return array
      */
     public function getFunctions()
     {
         return [
-            new \Twig_SimpleFunction('someFunction', [$this, 'someInternalFunction']),
+            new \Twig_SimpleFunction('svgIcon', [$this, 'getIcon']),
         ];
     }
 
@@ -77,10 +76,32 @@ class SvgIconsTwigExtension extends \Twig_Extension
      *
      * @return string
      */
-    public function someInternalFunction($text = null)
+    public function getFeather($key = null)
     {
-        $result = $text . " in the way";
-
-        return $result;
+			return $this->getIcon('feather', $key);
+    }
+    
+    public function getZondicon($key = null)
+    {
+			return $this->getIcon('zondicons', $key);
+    }
+    
+    public function getIcon($library = null, $icon = null)
+    {
+	    $dir = SvgIcons::getInstance()->getBasePath();
+	    $svg = "$dir/resources/icons/$library/$icon.svg";
+	    
+	    if(!file_exists($svg)) {
+		    Craft::warning(
+	          Craft::t(
+	              'craft-svgicons',
+	              'SVG icon "{name}" doesn’t exist',
+	              ['name' => $icon]
+	          ),
+	          __METHOD__
+	      );
+      } else {
+	      return new \Twig_Markup(file_get_contents($svg), 'UTF-8');
+      }
     }
 }
