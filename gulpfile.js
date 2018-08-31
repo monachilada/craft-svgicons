@@ -2,9 +2,9 @@ var gulp = require('gulp');
 var _ = require('lodash');
 var fs = require('fs');
 var feather = './node_modules/feather-icons/dist/icons/';
-var featherDest = './resources/icons/feather/';
+var featherDest = './src/resources/icons/feather/';
 var zondicons = './node_modules/zondicons/dist/icons/';
-var zondiconsDest = './resources/icons/zondicons/';
+var zondiconsDest = './src/resources/icons/zondicons/';
 
 gulp.task('feather', function (done) {
 	var files = fs.readdirSync(feather);
