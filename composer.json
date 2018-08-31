@@ -19,7 +19,7 @@
 	        "type": "package",
 	        "package": {
 	          "name": "feathericons/feather",
-	          "version": "1.0.0",
+	          "version": "master",
 	          "source": {
 	            "url": "https://github.com/feathericons/feather",
 	            "type": "git",
@@ -31,7 +31,7 @@
 	        "type": "package",
 	        "package": {
 	          "name": "dukestreetstudio/zondicons",
-	          "version": "1.0.0",
+	          "version": "master",
 	          "source": {
 	            "url": "https://github.com/dukestreetstudio/zondicons",
 	            "type": "git",
@@ -49,8 +49,8 @@
     ],
     "require": {
         "craftcms/cms": "^3.0",
-        "feathericons/feather": "*",
-        "dukestreetstudio/zondicons": "*"
+        "feathericons/feather": "dev-master",
+        "dukestreetstudio/zondicons": "dev-master"
     },
     "autoload": {
         "psr-4": {

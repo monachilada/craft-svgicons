@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "366e7e0a3b8de19b24c006aa5452bfad",
+    "content-hash": "a7207374c45d8ff496aa25d945b93da1",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -683,13 +683,14 @@
         },
         {
             "name": "dukestreetstudio/zondicons",
-            "version": "1.0.0",
+            "version": "master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dukestreetstudio/zondicons",
                 "reference": "master"
             },
-            "type": "library"
+            "type": "library",
+            "time": "2018-02-24T16:03:10+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -872,13 +873,14 @@
         },
         {
             "name": "feathericons/feather",
-            "version": "1.0.0",
+            "version": "master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/feathericons/feather",
                 "reference": "master"
             },
-            "type": "library"
+            "type": "library",
+            "time": "2018-07-19T01:34:53+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2718,7 +2720,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "feathericons/feather": 20,
+        "dukestreetstudio/zondicons": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
