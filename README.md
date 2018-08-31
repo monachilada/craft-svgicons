@@ -28,11 +28,11 @@ Filter style: `'icon-name'|feather` (or `|zondicons`) as well as function style:
 
 For example `'cpu'|feather` would result in the following:
 
-<img src="src/resources/icons/feather/cpu.svg" alt="Feather CPU Icon" width="256" height="256">
+<img src="src/resources/icons/feather/cpu.svg" alt="Feather CPU Icon" width="128" height="128">
 
 While `svgIcon('zondicons', 'announcement')` would result in:
 
-<img src="src/resources/icons/zondicons/announcement.svg" alt="Zondicons announcement" width="256" height="256">
+<img src="src/resources/icons/zondicons/announcement.svg" alt="Zondicons announcement" width="128" height="128">
 
 ## SVG Icons Roadmap
 
