@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-18a8 8 0 1 0 0 16 4 4 0 1 1 0-8 4 4 0 1 0 0-8zm0 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0-8a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SVG-icons">
+            <circle id="Oval" fill="#57D78D" fill-rule="evenodd" cx="128" cy="128" r="128"></circle>
+            <path d="M128,70 L192,108.4 L128,146.8 L64,108.4 L128,70 Z M170.688,134 L192,146.8 L128,185.2 L64,146.8 L85.312,134 L128,159.6 L170.688,134 Z" id="Shape" fill="#E4FCEC" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
