@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="SVG-icons">
-            <circle id="Oval" fill="#57D78D" fill-rule="evenodd" cx="128" cy="128" r="128"></circle>
-            <path d="M128,70 L192,108.4 L128,146.8 L64,108.4 L128,70 Z M170.688,134 L192,146.8 L128,185.2 L64,146.8 L85.312,134 L128,159.6 L170.688,134 Z" id="Shape" fill="#E4FCEC" fill-rule="nonzero"></path>
-        </g>
-    </g>
-</svg>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><title>Icon</title><desc>Created with Sketch.</desc><g fill="none"><circle fill="#57D78D" cx="128" cy="128" r="128"/><path d="M128 70l64 38.4-64 38.4-64-38.4 64-38.4zm42.688 64l21.312 12.8-64 38.4-64-38.4 21.312-12.8 42.688 25.6 42.688-25.6z" fill="#E4FCEC" fill-rule="nonzero"/></g></svg>
