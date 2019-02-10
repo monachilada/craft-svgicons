@@ -1,6 +1,6 @@
 {
   "name": "craft-svgicons",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Craft CMS Twig extension to include SVGs from the Feather and Zondicons SVG icon libraries directly in your templates.",
   "scripts": {
     "build": "gulp",
@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/monachilada/craft-svgicons#readme",
   "devDependencies": {
-    "feather-icons": "^4.7.3",
-    "lodash": "^4.17.10",
+    "feather-icons": "^4.17.0",
+    "gulp": "^4.0.0",
+    "lodash": "^4.17.11",
     "pre-commit": "^1.2.2",
     "zondicons": "git+https://github.com/dukestreetstudio/zondicons.git"
   }
