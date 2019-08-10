@@ -94,7 +94,7 @@ class SvgIconsTwigExtension extends \Twig_Extension
 	    if(!file_exists($svg)) {
 		    Craft::warning(
 	          Craft::t(
-	              'svgicons',
+	              'craft-svgicons',
 	              'SVG icon "{name}" doesn’t exist',
 	              ['name' => $icon]
 	          ),
