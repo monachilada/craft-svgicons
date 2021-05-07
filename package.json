@@ -23,7 +23,7 @@
   "devDependencies": {
     "feather-icons": "^4.17.0",
     "gulp": "^4.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "pre-commit": "^1.2.2",
     "zondicons": "git+https://github.com/dukestreetstudio/zondicons.git"
   }
